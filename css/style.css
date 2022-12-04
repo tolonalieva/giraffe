@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: black;
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    min-width: 1200px;
+    margin: 0  auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.card{
+    width: 32%;
+    background-color: rgb(76, 74, 74);
+    color:rgb(92, 81, 81) ;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+.card:hover{
+    background-blend-mode: normal;
+}
+.card-img{
+    width: 100%;
+    min-height: 350px;
+    background-image: url(../img/gpppp.png);
+    background-color: rgba(54, 50, 50, 0.616);
+    background-blend-mode: multiply;
+    background-size: cover;
+    transition: 2s;
+}
+.img1{
+    background-image: url(../img/girafage....pngg.png);
+}
+.img2{
+    background-image: url(../img/deerrr.png);
+}
+.img3{
+    background-image: url(../img/gpppp.png);
+}
+.card:hover .card-img{
+    background-blend-mode: normal;
+    transition: 2s;
+}
+.card-btn{
+    color: rgb(87, 81, 81);
+    padding: 10px 20px;
+    background-color:#BC9E7E; 
+    border-radius: 5px;
+    display: inline-block;
+}
+.card:hover .card-btn{
+    background-image: radial-gradient(circle at 41.33% 31.4%, #ffff31 0, #ffff2c 8.33%, #ffff2e 16.67%, #f9ff36 25%, #d5ff40 33.33%, #b0ff4a 41.67%, #89f253 50%, #60e35b 58.33%, #2dd563 66.67%, #00ca6c 75%, #00c074 83.33%, #00b87e 91.67%, #00b389 100%);
+}
+
+
+
+
+
+
